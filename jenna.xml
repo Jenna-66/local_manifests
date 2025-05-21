@@ -5,11 +5,15 @@
            fetch="https://github.com/Jenna-66"
            revision="15.0" />
 
+  <remote  name="gitlab"
+           fetch="https://gitlab.com" />
 
+
+<!-- Samsung SM-A52F (a52q) -->
 <!-- Samsung sm7125 Common Repo -->
   <project path="device/samsung/sm7125-common" name="device_samsung_sm7125-common" groups="device" remote="myGithub" />
 
-<!-- (SM-A52F - a52q) -->
+<!-- a52q -->
   <project path="device/samsung/a52q" name="device_samsung_a52q" groups="device" remote="myGithub" />
 
 <!-- Samsung Hardware Repo -->
@@ -25,6 +29,29 @@
 
 <!-- mmicroG -->
   <project path="vendor/microg" name="vendor_microg" remote="myGithub" />
+
+<!-- Xiaomi 11T Pro (vili) -->
+<!-- Xiaomi SM8350 Common Repo -->
+  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub" />
+
+<!-- vili -->
+  <project path="device/xiaomi/vili" name="device_xiaomi_vili" remote="myGithub" />
+
+<!-- Xiaomi Hardware Repo -->
+  <project path="hardware/xiaomi" name="AOSP-for-vili/android_hardware_xiaomi" revision="lineage-22.2" />
+
+<!-- Xiaomi Camera Repo -->
+  <project path="vendor/xiaomi/camera" name="AOSP-for-vili/vendor_xiaomi_camera" revision="vili" />
+
+<!-- Xiaomi SM8350 Kernel -->
+  <project path="kernel/xiaomi/sm8350" name="AOSP-for-vili/android_kernel_xiaomi_sm8350" revision="lineage-22.1-ksunext" />
+
+<!-- Vendor Trees -->
+  <project path="vendor/xiaomi/sm8350-common" name="AOSP-for-vili/vendor_xiaomi_sm8350-common" revision="lineage-22.2" />
+  <project path="vendor/xiaomi/vili" name="AOSP-for-vili/vendor_xiaomi_vili" revision="lineage-22.2" />
+  
+<!-- Firmware -->
+  <project path="vendor/xiaomi/vili-firmware" name="0mar99/vendor-xiaomi-vili-firmware" remote="gitlab" revision="main" />
 
 </manifest>
 
