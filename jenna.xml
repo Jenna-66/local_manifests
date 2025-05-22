@@ -9,27 +9,6 @@
            fetch="https://gitlab.com" />
 
 
-<!-- Samsung SM-A52F (a52q) -->
-<!-- Samsung sm7125 Common Repo -->
-  <project path="device/samsung/sm7125-common" name="device_samsung_sm7125-common" groups="device" remote="myGithub" />
-
-<!-- a52q -->
-  <project path="device/samsung/a52q" name="device_samsung_a52q" groups="device" remote="myGithub" />
-
-<!-- Samsung Hardware Repo -->
-  <project path="hardware/samsung" name="stuffbykoko/hardware_samsung" revision="fifteen" />
-  <project path="hardware/samsung-ext/interfaces" name="stuffbykoko/hardware_samsung-ext_interfaces" revision="fifteen" />
-
-<!-- Samsung SM7125 Kernel -->
-  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="myGithub" revision="15.0" />
-
-<!-- Vendor Trees -->
-  <project path="vendor/samsung/sm7125-common" name="stuffbykoko/vendor_samsung_sm7125-common" groups="device" revision="fifteen" />
-  <project path="vendor/samsung/a52q" name="stuffbykoko/vendor_samsung_a52q" groups="device" revision="fifteen" />
-
-<!-- mmicroG -->
-  <project path="vendor/microg" name="vendor_microg" remote="myGithub" />
-
 <!-- Xiaomi 11T Pro (vili) -->
 <!-- Xiaomi SM8350 Common Repo -->
   <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub" />
