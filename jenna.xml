@@ -5,11 +5,11 @@
            fetch="https://github.com/Jenna-66"
            revision="15.0" />
 
-
+<!-- Samsung SM-A52F (a52q) -->
 <!-- Samsung sm7125 Common Repo -->
   <project path="device/samsung/sm7125-common" name="device_samsung_sm7125-common" groups="device" remote="myGithub" />
 
-<!-- (SM-A52F - a52q) -->
+<!-- a52q -->
   <project path="device/samsung/a52q" name="device_samsung_a52q" groups="device" remote="myGithub" />
 
 <!-- Samsung Hardware Repo -->
