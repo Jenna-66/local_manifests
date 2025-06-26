@@ -23,7 +23,7 @@
   <project path="vendor/xiaomi/camera" name="AOSP-for-vili/vendor_xiaomi_camera" revision="vili" />
 
 <!-- Xiaomi SM8350 Kernel -->
-  <project path="kernel/xiaomi/sm8350" name="AOSP-for-vili/android_kernel_xiaomi_sm8350" revision="lineage-22.1-ksunext" />
+  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" />
 
 <!-- Vendor Trees -->
   <project path="vendor/xiaomi/sm8350-common" name="AOSP-for-vili/vendor_xiaomi_sm8350-common" revision="lineage-22.2" />
