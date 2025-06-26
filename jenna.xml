@@ -32,5 +32,8 @@
 <!-- Firmware -->
   <project path="vendor/xiaomi/vili-firmware" name="0mar99/vendor-xiaomi-vili-firmware" remote="gitlab" revision="main" />
 
+<!-- mmicroG -->
+  <project path="vendor/microg" name="vendor_microg" remote="myGithub" />
+
 </manifest>
 
