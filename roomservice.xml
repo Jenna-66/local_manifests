@@ -20,7 +20,7 @@
   <project path="hardware/xiaomi" name="AOSP-for-vili/android_hardware_xiaomi" revision="lineage-22.2" />
 
 <!-- Xiaomi Camera Repo -->
-  <project path="vendor/xiaomi/camera" name="AOSP-for-vili/vendor_xiaomi_camera" revision="vili" />
+  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub" />
 
 <!-- Xiaomi SM8350 Kernel -->
   <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" />
