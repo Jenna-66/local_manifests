@@ -18,6 +18,7 @@
 
 <!-- Samsung SM7125 Kernel -->
   <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="myGithub" revision="15.0-kernelsunext" />
+  <project path="kernel/samsung/sm7125/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="next" />
 
 <!-- Vendor Trees -->
   <project path="vendor/samsung/sm7125-common" name="stuffbykoko/vendor_samsung_sm7125-common" groups="device" revision="fifteen" />
