@@ -17,7 +17,7 @@
   <project path="hardware/samsung-ext/interfaces" name="stuffbykoko/hardware_samsung-ext_interfaces" revision="fifteen" />
 
 <!-- Samsung SM7125 Kernel -->
-  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="myGithub" revision="15.0" />
+  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="myGithub" revision="15.0-kernelsunext" />
 
 <!-- Vendor Trees -->
   <project path="vendor/samsung/sm7125-common" name="stuffbykoko/vendor_samsung_sm7125-common" groups="device" revision="fifteen" />
