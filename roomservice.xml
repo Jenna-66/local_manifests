@@ -31,7 +31,7 @@
   <project path="vendor/xiaomi/vili" name="AOSP-for-vili/vendor_xiaomi_vili" revision="lineage-23" />
   
 <!-- Firmware -->
-  <project path="vendor/xiaomi/vili-firmware" name="0mar99/vendor-xiaomi-vili-firmware" remote="gitlab" revision="main" />
+  <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"  />
 
 <!-- Dolby -->
   <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid" />
