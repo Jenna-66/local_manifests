@@ -27,11 +27,11 @@
   <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" />
 
 <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/sm8350-common" name="AOSP-for-vili/vendor_xiaomi_sm8350-common" revision="lineage-23" />
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="myGithub" />
   <project path="vendor/xiaomi/vili" name="AOSP-for-vili/vendor_xiaomi_vili" revision="lineage-23" />
   
 <!-- Firmware -->
-  <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"  />
+  <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub" />
 
 <!-- Dolby -->
   <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid" />
