@@ -8,6 +8,7 @@
   <remote  name="gitlab"
            fetch="https://gitlab.com" />
 
+<remove-project name="crdroidandroid/android_packages_apps_DolbyAtmos" />
 
 <!-- Xiaomi 11T Pro (vili) -->
 <!-- Xiaomi SM8350 Common Repo -->
