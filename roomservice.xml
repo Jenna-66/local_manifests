@@ -24,7 +24,7 @@
   <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub" />
 
 <!-- Xiaomi SM8350 Kernel -->
-  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" revision="16.0-kernelsunext-wip" />
+  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" />
   <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" />
 
 <!-- Vendor Trees -->
