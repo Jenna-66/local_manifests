@@ -38,7 +38,7 @@
   <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid" />
 
 <!-- mmicroG -->
-  <project path="vendor/microg" name="vendor_microg" remote="myGithub" revision="16.0" />
+  <project path="vendor/microg" name="vendor_microg" remote="myGithub" />
 
 </manifest>
 
