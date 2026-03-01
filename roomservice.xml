@@ -29,7 +29,7 @@
 
 <!-- Vendor Trees -->
   <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="myGithub" />
-  <project path="vendor/xiaomi/vili" name="AOSP-for-vili/vendor_xiaomi_vili" revision="lineage-23" />
+  <project path="vendor/xiaomi/vili" name="vendor_xiaomi_vili" remote="myGithub" />
   
 <!-- Firmware -->
   <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub" />
