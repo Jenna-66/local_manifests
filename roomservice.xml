@@ -3,42 +3,40 @@
 
   <remote  name="myGithub"
            fetch="https://github.com/Jenna-66"
-           revision="16.0" />
+           revision="16.0"/>
 
   <remote  name="gitlab"
-           fetch="https://gitlab.com" />
-
-<remove-project name="crdroidandroid/android_packages_apps_DolbyAtmos" />
+           fetch="https://gitlab.com"/>
 
 <!-- Xiaomi 11T Pro (vili) -->
 <!-- Xiaomi SM8350 Common Repo -->
-  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub" />
+  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub"/>
 
 <!-- vili -->
-  <project path="device/xiaomi/vili" name="device_xiaomi_vili" remote="myGithub" />
+  <project path="device/xiaomi/vili" name="AOSP-for-vili/android_device_xiaomi_vili" revision="lineage-23.2"/>
 
 <!-- Xiaomi Hardware Repo -->
-  <project path="hardware/xiaomi" name="crdroidandroid/android_hardware_xiaomi" remote="crdroid" />
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-23.2"/>
 
 <!-- Xiaomi Camera Repo -->
-  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub" />
+  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub"/>
 
 <!-- Xiaomi SM8350 Kernel -->
-  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" />
-  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" />
+  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub"/>
+  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy"/>
 
 <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="myGithub" />
-  <project path="vendor/xiaomi/vili" name="vendor_xiaomi_vili" remote="myGithub" />
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="myGithub"/>
+  <project path="vendor/xiaomi/vili" name="AOSP-for-vili/proprietary_vendor_xiaomi_vili" revision="lineage-23.2"/>
   
 <!-- Firmware -->
-  <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub" />
+  <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"/>
 
 <!-- Dolby -->
-  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid" />
+  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid"/>
 
 <!-- mmicroG -->
-  <project path="vendor/microg" name="vendor_microg" remote="myGithub" />
+  <project path="vendor/microg" name="vendor_microg" remote="myGithub"/>
 
 </manifest>
 
