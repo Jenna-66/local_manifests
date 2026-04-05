@@ -22,8 +22,8 @@
   <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub"/>
 
 <!-- Xiaomi SM8350 Kernel -->
-  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub"/>
-  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy"/>
+  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" revision="16.0-susfs"/>
+  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy_susfs"/>
 
 <!-- Vendor Trees -->
   <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="myGithub"/>
@@ -33,7 +33,12 @@
   <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"/>
 
 <!-- Dolby -->
-  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid"/>
+  <remove-project name="crdroidandroid/android_packages_apps_DolbyAtmos"/>
+  <project path="vendor/sony/dolby" name="AOSP-for-vili/proprietary_vendor_sony_dolby"  revision="16-Lunaris"/>
+  <project path="packages/apps/LunarisDolby" name="AOSP-for-vili/android_packages_apps_LunarisDolby" revision="16"/>
+
+<!-- TouchServices -->
+  <project path="packages/apps/TouchServices" name="AOSP-for-vili/packages_apps_TouchServices" revision="lineage-23.2"/>
 
 <!-- mmicroG -->
   <project path="vendor/microg" name="vendor_microg" remote="myGithub"/>
