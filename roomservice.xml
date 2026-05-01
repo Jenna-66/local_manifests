@@ -5,36 +5,36 @@
            fetch="https://github.com/Jenna-66"
            revision="16.0" />
 
-  <remote  name="gitlab"
-           fetch="https://gitlab.com" />
+<!-- Samsung S20+ (y2s) -->
+
+<!-- Universal9830 Common Repo -->
+  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common"  remote="myGithub" revision="lineage-23.2" />
+
+<!-- y2s -->
+  <project path="device/samsung/y2s" name="LineageOS/android_device_samsung_y2s" revision="lineage-23.2" />
+
+<!-- Universal9830 Kernel -->
+  <project path="kernel/samsung/universal9830" name="android_kernel_samsung_universal9830" remote="myGithub" revision="lineage-23.2-ksunext" />
+  <project path="kernel/samsung/universal9830/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" />
+
+<!-- Exynos stuff -->
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path= "device/samsung_slsi/sepolicy" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung" path= "hardware/samsung" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi_nfc" path= "hardware/samsung_slsi/nfc" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path= "hardware/samsung_slsi-linaro/config" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path= "hardware/samsung_slsi-linaro/exynos" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path= "hardware/samsung_slsi-linaro/exynos5" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path= "hardware/samsung_slsi-linaro/graphics" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path= "hardware/samsung_slsi-linaro/interfaces" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path= "hardware/samsung_slsi-linaro/openmax" revision="lineage-23.2" />
 
 
-<!-- Xiaomi 11T Pro (vili) -->
-<!-- Xiaomi SM8350 Common Repo -->
-  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub" />
-
-<!-- vili -->
-  <project path="device/xiaomi/vili" name="device_xiaomi_vili" remote="myGithub" />
-
-<!-- Xiaomi Hardware Repo -->
-  <project path="hardware/xiaomi" name="AOSP-for-vili/android_hardware_xiaomi" revision="lineage-23.0" />
-
-<!-- Xiaomi Camera Repo -->
-  <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub" revision="15.0" />
-
-<!-- Xiaomi SM8350 Kernel -->
-  <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" revision="16.0-kernelsunext" />
-  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="next" />
 
 <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/sm8350-common" name="AOSP-for-vili/vendor_xiaomi_sm8350-common" revision="lineage-23" />
-  <project path="vendor/xiaomi/vili" name="AOSP-for-vili/vendor_xiaomi_vili" revision="lineage-23" />
+  <project path="vendor/samsung/universal9830-common" name="TheMuppets/proprietary_vendor_samsung_universal9830-common" revision="lineage-23.2" />
+  <project path="vendor/samsung/y2s" name="TheMuppets/proprietary_vendor_samsung_y2s" revision="lineage-23.2" />
   
 <!-- Firmware -->
-  <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"  />
-
-<!-- Dolby -->
-  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid" />
 
 <!-- mmicroG -->
   <project path="vendor/microg" name="vendor_microg" remote="myGithub" revision="16.0" />
