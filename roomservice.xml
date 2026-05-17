@@ -8,25 +8,25 @@
 <!-- Samsung S20+ (y2s) -->
 
 <!-- Universal9830 Common Repo -->
-  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common"  remote="myGithub" revision="lineage-23.2" />
+  <project path="device/samsung/universal9830-common" name="android_device_samsung_universal9830-common"  remote="myGithub" revision="16.0-y2s" />
 
 <!-- y2s -->
-  <project path="device/samsung/y2s" name="LineageOS/android_device_samsung_y2s" revision="lineage-23.2" />
+  <project path="device/samsung/y2s" name="android_device_samsung_y2s" remote="myGithub" revision="16.0" />
 
 <!-- Universal9830 Kernel -->
-  <project path="kernel/samsung/universal9830" name="android_kernel_samsung_universal9830" remote="myGithub" revision="lineage-23.2-ksunext" />
+  <project path="kernel/samsung/universal9830" name="android_kernel_samsung_universal9830" remote="myGithub" revision="16.0-y2s-ksunext" />
   <project path="kernel/samsung/universal9830/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" />
 
 <!-- Exynos stuff -->
-  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path= "device/samsung_slsi/sepolicy" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung" path= "hardware/samsung" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi_nfc" path= "hardware/samsung_slsi/nfc" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path= "hardware/samsung_slsi-linaro/config" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path= "hardware/samsung_slsi-linaro/exynos" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path= "hardware/samsung_slsi-linaro/exynos5" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path= "hardware/samsung_slsi-linaro/graphics" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path= "hardware/samsung_slsi-linaro/interfaces" revision="lineage-23.2" />
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path= "hardware/samsung_slsi-linaro/openmax" revision="lineage-23.2" />
+  <project name="crdroidandroid/android_device_samsung_slsi_sepolicy" path= "device/samsung_slsi/sepolicy" revision="16.0" />
+  <project name="crdroidandroid/android_hardware_samsung" path= "hardware/samsung" revision="16.0" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi_nfc" path= "hardware/samsung_slsi/nfc" revision="16.0" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi-linaro_config" path= "hardware/samsung_slsi-linaro/config" revision="16.0-x1s" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi-linaro_exynos" path= "hardware/samsung_slsi-linaro/exynos" revision="16.0-x1s" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi-linaro_exynos5" path= "hardware/samsung_slsi-linaro/exynos5" revision="16.0" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi-linaro_graphics" path= "hardware/samsung_slsi-linaro/graphics" revision="16.0-x1s" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi-linaro_interfaces" path= "hardware/samsung_slsi-linaro/interfaces" revision="16.0" />
+  <project name="crdroidandroid/android_hardware_samsung_slsi-linaro_openmax" path= "hardware/samsung_slsi-linaro/openmax" revision="16.0" />
 
 
 
