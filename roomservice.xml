@@ -3,7 +3,7 @@
 
   <remote  name="myGithub"
            fetch="https://github.com/Jenna-66"
-           revision="15.0" />
+           revision="16.0" />
 
 <!-- Samsung SM-A52F (a52q) -->
 <!-- Samsung sm7125 Common Repo -->
@@ -13,12 +13,12 @@
   <project path="device/samsung/a52q" name="device_samsung_a52q" groups="device" remote="myGithub" />
 
 <!-- Samsung Hardware Repo -->
-  <project path="hardware/samsung" name="stuffbykoko/hardware_samsung" revision="fifteen" />
-  <project path="hardware/samsung-ext/interfaces" name="stuffbykoko/hardware_samsung-ext_interfaces" revision="fifteen" />
+  <project path="hardware/samsung" name="crdroidandroid/hardware_samsung" revision="16.0" />
+  <project path="hardware/samsung-extra/interfaces" name="crdroidandroid/hardware_samsung-extra_interfaces" revision="16.0" />
 
 <!-- Samsung SM7125 Kernel -->
-  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="myGithub" revision="15.0-kernelsunext" />
-  <project path="kernel/samsung/sm7125/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="next" />
+  <project path="kernel/samsung/sm7125" name="kernel_samsung_sm7125" remote="myGithub" revision="16.0-kernelsunext" />
+  <project path="kernel/samsung/sm7125/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" />
 
 <!-- Vendor Trees -->
   <project path="vendor/samsung/sm7125-common" name="stuffbykoko/vendor_samsung_sm7125-common" groups="device" revision="fifteen" />
