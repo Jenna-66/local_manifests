@@ -33,7 +33,8 @@
   <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"/>
 
 <!-- Dolby -->
-  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" remote="crdroid" revision="Dolby-Vision-2.1"/>
+  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" revision="sony-A17"/>
+  <project path="packages/apps/DolbyAtmos" name="crdroidandroid/android_packages_apps_DolbyAtmos" revision="16.0"/>
 
 <!-- mmicroG -->
   <project path="vendor/microg" name="vendor_microg" remote="myGithub"/>
