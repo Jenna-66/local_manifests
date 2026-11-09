@@ -35,7 +35,7 @@
 
 <!-- Dolby -->
   <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" revision="sony-A17"/>
-  <project path="packages/apps/DolbyAtmos" name="crdroidandroid/android_packages_apps_DolbyAtmos" revision="16.0"/>
+  <project path="packages/apps/LunarisDolby" name="crdroidandroid/android_packages_apps_LunarisDolby" revision="17.0"/>
 
 <!-- mmicroG -->
   <project path="vendor/microg" name="vendor_microg" remote="myGithub"/>
