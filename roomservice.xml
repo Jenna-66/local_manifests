@@ -10,32 +10,33 @@
 
 <!-- Xiaomi 11T Pro (vili) -->
 <!-- Xiaomi SM8350 Common Repo -->
-  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub"/>
+  <project path="device/xiaomi/sm8350-common" name="device_xiaomi_sm8350-common" remote="myGithub" revision="wiribio"/>
 
 <!-- vili -->
-  <project path="device/xiaomi/vili" name="device_xiaomi_vili" remote="myGithub"/>
+  <project path="device/xiaomi/vili" name="device_xiaomi_vili" remote="myGithub" revision="wiribio"/>
 
 <!-- Xiaomi Hardware Repo -->
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-24.0"/>
+  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" revision="lineage-24.0" remote="github"/>
 
 <!-- Xiaomi Camera Repo -->
   <project path="vendor/xiaomi/camera" name="vendor_xiaomi_camera" remote="myGithub"/>
 
 <!-- Xiaomi SM8350 Kernel -->
   <project path="kernel/xiaomi/sm8350" name="android_kernel_xiaomi_sm8350" remote="myGithub" revision="17.0-ksun-nomount"/>
-  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy"/>
-  <project path="kernel/xiaomi/sm8350/NoMount" name="maxsteeel/nomount/" revision="dev"/>
+  <project path="kernel/xiaomi/sm8350/KernelSU-Next" name="KernelSU-Next/KernelSU-Next" revision="legacy" remote="github"/>
+  <project path="kernel/xiaomi/sm8350/NoMount" name="maxsteeel/nomount/" revision="dev" remote="github"/>
 
 <!-- Vendor Trees -->
-  <project path="vendor/xiaomi/sm8350-common" name="vendor-trees/vendor_xiaomi_sm8350-common.git" remote="gitlab" revision="17"/>
+<!--  <project path="vendor/xiaomi/sm8350-common" name="vendor-trees/vendor_xiaomi_sm8350-common.git" remote="gitlab" revision="17"/> -->
+  <project path="vendor/xiaomi/sm8350-common" name="vendor_xiaomi_sm8350-common" remote="myGithub"/>
   <project path="vendor/xiaomi/vili" name="vendor-trees/vendor_xiaomi_vili.git" remote="gitlab" revision="17"/>
 
 <!-- Firmware -->
   <project path="vendor/xiaomi/vili-firmware" name="vendor_xiaomi_vili-firmware" remote="myGithub"/>
 
 <!-- Dolby -->
-  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" revision="sony-A17"/>
-  <project path="packages/apps/LunarisDolby" name="crdroidandroid/android_packages_apps_LunarisDolby" revision="17.0"/>
+  <project path="hardware/dolby" name="crdroidandroid/android_hardware_dolby" revision="sony-A17" remote="github"/>
+  <project path="packages/apps/LunarisDolby" name="crdroidandroid/android_packages_apps_LunarisDolby" revision="17.0" remote="github"/>
 
 <!-- mmicroG -->
   <project path="vendor/microg" name="vendor_microg" remote="myGithub"/>
